@@ -1,0 +1,868 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    margin-right: 0;
+    margin-left:0;
+}
+/* Navbar styles */
+.navbar {
+    background-color: rgb(134, 132, 132) !important;
+    padding: 0PX;
+
+}
+.navbar-collapse {
+    position: relative; /* Reset position */
+    width: auto; /* Reset width */
+    max-width: none; /* Reset max-width */
+    height: auto; /* Reset height */
+    background-color: transparent; /* Reset background */
+    transition: right 0.3s ease;
+    z-index: 1050;
+}
+.navbar-collapse.show {
+    right: 0; 
+}
+.toggle-button {
+    display: none;
+}
+
+
+
+
+.navbar-brand {
+    margin-left: 15px;
+
+    font-size: 24px;
+
+    text-transform: uppercase;
+
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+
+}
+
+.navbar-nav .nav-link {
+ 
+    font-weight: bold;
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+}
+
+.navbar-nav .nav-link:hover {
+    font-size: 20px;
+
+    box-shadow: 0 0 5px rgb(235, 152, 58);
+
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Set text color to white */
+}
+.logo {
+    max-height: 65px;
+
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+
+    color: #333;
+
+}
+/* End Navbar section */
+
+
+
+
+
+
+
+
+/* main home section */
+
+
+.mainhome {
+  
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.container {
+    position: relative;
+
+    z-index: 1;
+
+}
+
+.left-content {
+
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.left-content h2 {
+    color: white;
+    font-size: 53px;
+    margin-top: 90px;
+}
+
+.left-content p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.hr1 {
+    color: red;
+    height: 5px;
+}
+
+.mainhome::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+
+    z-index: 0;
+
+}
+
+
+
+
+/* Welcome Section */
+
+
+.right-content4 {
+    margin-top: 91px;
+
+
+}
+
+.right-content4 h2 {
+    font-size: 45px;
+}
+
+.right-content4 h5 {
+    list-style: circle;
+}
+
+.hr1 {
+    width: 157px;
+    height: 10px;
+    color: red;
+    font-weight: bolder;
+}
+
+.image-container1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image-container1 img {
+    width: 70%;
+    margin-top: 103px;
+    margin-left: 146px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-container1 img:hover {
+    transform: scale(1.1);
+}
+
+/* Product Section Home Page */
+
+/* Container styles */
+.gallery-images {
+    font-size: 75px;
+    color: white;
+    margin-bottom: 118px;
+    padding-bottom: 41px;
+}
+
+.gallery-images h2 {
+    font-size: 70px;
+    margin-top: 20px !important;
+    color: white;
+    font-family: auto;
+}
+
+
+.card-text {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+.btnsw {
+    position: absolute;
+    bottom: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(24, 23, 23);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btnsw:hover {
+
+    color: white;
+}
+
+
+.photos-gallery {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(160, 154, 154);
+
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+
+.photos-gallery .card {
+    margin-bottom: 10px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-bottom: 55px;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    overflow: hidden;
+    transition: height 0.3s ease;
+
+}
+
+
+.card:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+
+
+
+
+
+/* product Page */
+.images23 {
+    margin-top: 28px;
+}
+
+.card-text1 {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardsgaleery img {
+    width: 100%;
+    height: 194px;
+
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 4px;
+}
+
+
+
+
+
+/* .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card1:hover::before {
+    opacity: 1;
+}
+
+
+.card:hover .card-text {
+    opacity: 1;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* service section */
+
+.services {
+    /* background-image: url('images/AdobeStock5.webp'), linear-gradient(180deg, rgba(0, 0, 0, 0.86) 5%, rgba(0, 0, 0, 0) 54%) !important; */
+/* background-color: black; */
+    background-size: cover;
+
+    background-position: center;
+
+    height: 444px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    padding: 20px;
+}
+
+.servicescontent {
+    max-width: 600px;
+    border: 2px solid white;
+    box-shadow: 2px solid white;
+    width: 53%;
+
+}
+
+.services h3 {
+    font-size: 60px;
+    margin-bottom: 44px;
+    color: white;
+}
+
+.services p {
+    color: white;
+    font-size: 23px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page */
+
+/* .aboutpage {
+    background-image: url('images/AdobeStock_171902938-1.jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 206px;
+
+    position: relative;
+    overflow: hidden;
+
+} */
+
+.aboutpage h2 {
+    font-size: 60px;
+    color: #977f32;
+    text-align: center;
+    text-decoration: underline;
+    /* margin-top: 80px; */
+
+}
+
+.aboutfirst {
+    color: white;
+    margin-top: 20px !important;
+}
+
+.aboutfirst h2 {
+    padding-top: 50px;
+}
+
+.aboutsection1 {
+    padding-top: 43px;
+}
+
+.main2 {
+    background-color: black;
+    height: 700px;
+}
+
+
+.card1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.card1 img {
+    transition: transform 0.3s ease;
+}
+
+.card1:hover img {
+    transform: scale(1.1);
+    width: 110%;
+
+}
+
+.points {
+    list-style-type: circle;
+
+    padding-left: 20px;
+
+}
+
+.points {
+    margin-bottom: 5px;
+
+    margin-left: 83px;
+    margin-top: 34px;
+
+}
+
+.targets {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.targets h2 {
+    margin-left: 103px;
+    margin-top: 43px;
+}
+
+.targets h3 {
+    font-size: 21px;
+    margin-left: 103px;
+}
+
+.targets h5 {
+
+    margin-left: 103px
+}
+
+.secondsection h2 {
+    text-align: center;
+}
+.secondsection
+{
+    margin-bottom: 52PX;
+}
+.secondsection p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    margin-top: 27px;
+}
+
+.aboutlast {
+    background-image: url('images/aboutlastimage.webp');
+
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.right-contentb button {
+    margin-top: 24%;
+    margin-left: 240px;
+    width: 162px;
+    height: 56px;
+    background-color: #cbbfbf;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.left-contentb h2 {
+    color: white;
+    margin-top: 24%;
+    font-size: 41px;
+}
+
+/* End About Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Stone finishes */
+.equal-height-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height-row .img-holder {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.equal-height-row .img-holder img {
+    width: 350px;
+ 
+    height: 270px;
+
+}
+
+
+.row {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* margin: 0 -15px; */
+
+}
+
+.col-8 {
+    flex: 0 0 66.66%;
+
+    max-width: 66.66%;
+
+    padding: 0 15px;
+
+}
+
+.col-4 {
+    flex: 0 0 33.33%;
+
+    max-width: 33.33%;
+
+    padding: 0 15px;
+
+}
+
+.col-4 img {
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+
+}
+
+.sec-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.sec-title h2 {
+    margin-top: 73px;
+    font-size: 50px;
+}
+
+.col-md-8 {
+    margin-top: 68px;
+}
+
+.col-md-4 {
+    margin-top: 70px;
+}
+
+.row23 {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin: 0 -15px;
+
+    margin-bottom: 23px;
+}
+
+
+/* End stone finish section */
+
+
+
+
+
+
+/* Packaging page */
+
+.package {
+    padding: 50px;
+}
+
+.m12 img {
+    width: 267px;
+    height: 200px;
+    padding-top: -71px;
+    /* margin-top: -55px; */
+}
+
+.bc1 {
+    margin-bottom: 12px;
+
+}
+
+.bo6 {
+    border: 1px solid #979595;
+}
+
+.p12 {
+    padding: 12px;
+}
+
+.packagepara {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40PX;
+}
+
+
+
+
+
+.j {
+    text-align: justify;
+    margin-top: -58PX;
+}
+
+.paragrpgh {
+    margin-bottom: 0;
+
+}
+
+.packageimage {
+    margin-bottom: 0;
+
+}
+
+/* End Packaging Page */
+
+
+
+
+/* mines section */
+
+.mines {
+    margin-top: 49px;
+}
+.mines h1{
+    font-size: 50px;
+}
+.minesimages {
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.equal-image {
+    width: 100%;
+    height: 179px;
+}
+
+.minesimages1 {
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.equal-image:hover {
+    transform: scale(1.05);
+
+    cursor: pointer;
+
+}
+
+
+/* End mines section */
+
+
+
+
+/* Service Page */
+
+.services11 {
+    /* background-image: url('images/aboutlastimage.webp'); */
+
+    background-size: cover;
+    background-position: center;
+    height: 970px;
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.lines {
+    color: white;
+    margin-top: 75px;
+    padding-left: 39px;
+    padding-right: 75px;
+    margin-left: 72px;
+}
+
+/* End Service Page */
+
+
+
+
+
+
+
+
+/* Footer Section */
+
+footer {
+    background-color: rgb(32, 30, 30);
+    width: 100%;
+    /* margin-bottom: 300px !important; */
+    /* margin-top: 100px; */
+   
+}
+footer p{
+    font-size: 17px;
+    margin:  0 !important;
+    text-align: center;
+    margin-top: 10px !important;
+  
+}
+.item_list {
+    list-style: none;
+    text-align: left;
+    /* margin-top: 20px !important */
+
+}
+.item h6 {
+    /* margin-top: 41px; */
+    margin-left: 49px;
+    text-decoration: underline;
+    color: rgb(151 127 50);
+    font-weight: bold;
+    font-size: 24px;
+}
+.item img
+{
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 23px; */
+    width: 161px;
+    margin-left: 20px;
+
+}
+.item p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px !important;
+    margin-left: -150px !important;
+}
+
+.items1 h6 {
+    color:rgb(151 127 50);
+    font-size: 20px;
+    /* margin-top: 75px; */
+    text-decoration: underline;
+}
+
+.items a {
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+.items a:hover {
+    text-decoration: none;
+    color:rgb(151 127 50);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+ /* End Footer Section */
