@@ -1,0 +1,4 @@
+storePassword=12345678
+      keyPassword=12345678
+      keyAlias=upload
+      storeFile=C:\Users\web\Desktop\flutter_projects\medicines\keystore.jks
