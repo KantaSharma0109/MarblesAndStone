@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921765226482",
+    "project_id": "phone-auth-82e5d",
+    "storage_bucket": "phone-auth-82e5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921765226482:android:2cabc3e5f535e82bdd6d6b",
+        "android_client_info": {
+          "package_name": "com.example.mobile_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDJK2pltCzZuPOw5Uq5unqA7Kg3tTVrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
